@@ -1,2 +1,4 @@
 <!--pages/game/index.wxml-->
-<text>pages/game/index.wxml</text>
+<view>
+    我是比赛详情
+</view>

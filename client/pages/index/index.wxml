@@ -1,4 +1,5 @@
 <!--index.wxml-->
 <view class="container">
   近期赛事
+  <navigator url="../game/index" hover-class="navigator-hover">跳转到比赛详情</navigator>
 </view>

@@ -1,2 +1,4 @@
 <!--pages/useredit/index.wxml-->
-<text>pages/useredit/index.wxml</text>
+<view>
+    我是编辑个人信息
+</view>
