@@ -1,6 +1,10 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/mygame/index",
+    "pages/personal/index",
+    "pages/game/index",
+    "pages/useredit/index",
     "pages/logs/logs"
   ],
   "window":{
@@ -8,5 +12,23 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#666",
+    "selectedColor":"green",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "近期赛事"
+      }, 
+      {
+        "pagePath": "pages/mygame/index",
+        "text": "我的比赛"
+      }, 
+      {
+        "pagePath": "pages/personal/index",
+        "text": "个人中心"
+      }
+    ]
   }
 }
